@@ -77,7 +77,7 @@ padding: 15px;
 
 /* interests section styles */
 #interests {
-border: 4px silver ridge;
+border: 4px rgb(192, 192, 192) ridge;
 padding: 8px;
 margin-top: 20px;
 }
@@ -85,4 +85,31 @@ margin-top: 20px;
 
 h2, h3 {
 margin: 0px;
+}.content h1 {
+color: black;
+}
+
+
+#portfolio {
+list-style-type: none;
+padding-left: 0;
+}
+
+
+#portfolio li {
+background: #fff;
+padding: 10px;
+border-radius: 10px;
+margin-bottom: 10px;
+}
+
+
+#portfolio li:hover {
+background: #eee;
+}
+
+
+#portfolio a {
+text-decoration: none;
+color: #454545;
 }
