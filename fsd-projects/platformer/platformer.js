@@ -31,7 +31,11 @@ $(function () {
 
 
     // TODO 2 - Create Platforms
-
+//createPlatform(xPos, yPos, Width, Height)
+createPlatform(200, 700, 100, 5,"red") 
+createPlatform(400, 600, 100, 5, "black")
+createPlatform(200, 500, 100, 5, "blue")
+createPlatform(400, 400, 100, 5)
 
 
 
@@ -39,13 +43,12 @@ $(function () {
 
 
 
-    
-    // TODO 4 - Create Cannons
+     // TODO 4 - Create Cannons
+//createCannon("wall", pos, secondsX1000, width, height)
+createCannon("top", 700, 2000)
+createCannon("top", 1100, 2000, 100, 100)
 
-
-    
-    
-    //////////////////////////////////
+//////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
     //////////////////////////////////
   }
